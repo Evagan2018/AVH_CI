@@ -89,7 +89,7 @@ static void app_main (void *argument) {
   RUN_TEST(test_my_sum_zero);
   const int result = UNITY_END();
   printf("---[ UNITY END ]---\n");
-
+ 
   osThreadExit();
 }
 
